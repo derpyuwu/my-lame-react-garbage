@@ -1,10 +1,9 @@
 # SHREK
 
 
->
-                                     Written by
 
-                                William Steig & Ted Elliott
+>Written by
+>William Steig & Ted Elliott
 
 
 
