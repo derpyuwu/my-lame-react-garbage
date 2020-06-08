@@ -942,7 +942,7 @@
                          - no, no - - the privilege to go forth 
                          and rescue the lovely Princess Fiona 
                          from the fiery keep of the dragon. If 
-                         for any reason the winner is unsuccessful, 
+                         for any reason the winner is UnSuccessful, 
                          the first runner-up will take his place 
                          and so on and so forth. Some of you 
                          may die, but it's a sacrifice I am willing 
