@@ -12,4 +12,10 @@
     .btn {
         width: 100.5%;
     }
+
+    .image-uploaders {
+        @include base-grid();
+        grid-template-columns: 200px;
+        height: 200px;
+    }
 }
