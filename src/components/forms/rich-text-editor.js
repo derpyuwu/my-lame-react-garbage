@@ -20,14 +20,12 @@ export default class RichTextEditor extends Component {
     }
 
     componentWillMount() {
-        if(this.props.editMode && this.props.contentToEdit) {
+        if (this.props.editMode && this.props.contentToEdit) {
             const blocksFromHtml = htmlToDraft(this.props.contentToEdit);
-            const{ contentBlocks, entityMap } = blocksFromHtml;
+            const { contentBlocks, entityMap } = blocksFromHtml;
             const contentState = ContentState.createFromBlockArray(contentBlocks, entityMap);
             const editorState = EditorState.createWithContent(contentState);
-            this.setState({
-                editorState
-            })
+            this.setState({ editorState });
         }
     }
 
