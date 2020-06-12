@@ -4,6 +4,22 @@
     align-items: center;
     position: relative;
 
+    .admin-blog-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            margin-left: 15px;
+            cursor: pointer;
+            // transition: ease-in-out;
+            
+            &:hover {
+                // color: red;
+            }
+        }
+    }
+
     .new-blog-link {
         position: fixed;
         right: 0;
